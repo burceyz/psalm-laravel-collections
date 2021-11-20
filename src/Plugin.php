@@ -1,6 +1,6 @@
 <?php
 
-namespace Burceyz\Psalm\LaravelCollection;
+namespace Fkupper\Psalm\LaravelCollection;
 
 use SimpleXMLElement;
 use Psalm\Plugin\PluginEntryPointInterface;
@@ -9,7 +9,7 @@ use Psalm\Plugin\RegistrationInterface;
 class Plugin implements PluginEntryPointInterface
 {
     /** @return void */
-    public function __invoke(RegistrationInterface $registration, ?SimpleXMLElement $config = null):void
+    public function __invoke(RegistrationInterface $registration, ?SimpleXMLElement $config = null)
     {
         foreach ($this->getStubFiles() as $file) {
             $registration->addStubFile($file);

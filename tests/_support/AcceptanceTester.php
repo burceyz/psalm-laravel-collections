@@ -1,6 +1,6 @@
 <?php
 
-namespace Burceyz\Psalm\LaravelCollection\Tests;
+namespace Fkupper\Psalm\LaravelCollection\Tests;
 
 use Codeception\Actor;
 

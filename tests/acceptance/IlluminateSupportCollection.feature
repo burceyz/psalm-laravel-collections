@@ -12,7 +12,7 @@ Feature: Collections
             <directory name="."/>
             </projectFiles>
             <plugins>
-            <pluginClass class="Burceyz\Psalm\LaravelCollection\Plugin" />
+            <pluginClass class="Fkupper\Psalm\LaravelCollection\Plugin" />
             </plugins>
             </psalm>
             """

@@ -1,15 +1,15 @@
 # psalm-laravel-collections
-[![Build Status](https://travis-ci.org/Burceyz/psalm-laravel-collections.svg?branch=master)](https://travis-ci.org/Burceyz/psalm-laravel-collections)
-[![Total Downloads](https://poser.pugx.org/Burceyz/psalm-laravel-collections/downloads)](//packagist.org/packages/Burceyz/psalm-laravel-collections)
-[![Monthly Downloads](https://poser.pugx.org/Burceyz/psalm-laravel-collections/d/monthly)](//packagist.org/packages/Burceyz/psalm-laravel-collections)
+[![Build Status](https://travis-ci.org/fkupper/psalm-laravel-collections.svg?branch=master)](https://travis-ci.org/fkupper/psalm-laravel-collections)
+[![Total Downloads](https://poser.pugx.org/fkupper/psalm-laravel-collections/downloads)](//packagist.org/packages/fkupper/psalm-laravel-collections)
+[![Monthly Downloads](https://poser.pugx.org/fkupper/psalm-laravel-collections/d/monthly)](//packagist.org/packages/fkupper/psalm-laravel-collections)
 
 A [Laravel](https://github.com/laravel/laravel)'s `\Illuminate\Support\Collection` plugin for [Psalm](https://github.com/vimeo/psalm) (requires Psalm v3) to help you find errors in some cases where you use collections.
 
 ## Installation:
 
 ```console
-$ composer require --dev Burceyz/psalm-laravel-collections
-$ vendor/bin/psalm-plugin enable Burceyz/psalm-laravel-collections
+$ composer require --dev fkupper/psalm-laravel-collections
+$ vendor/bin/psalm-plugin enable fkupper/psalm-laravel-collections
 ```
 
 ## Examples

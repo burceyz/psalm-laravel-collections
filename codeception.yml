@@ -1,4 +1,4 @@
-namespace: Burceyz\Psalm\LaravelCollection\Tests
+namespace: Fkupper\Psalm\LaravelCollection\Tests
 paths:
     tests: tests
     output: tests/_output

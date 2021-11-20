@@ -1,5 +1,5 @@
 {
-    "name": "fkupper/psalm-laravel-collections",
+    "name": "burceyz/psalm-laravel-collections",
     "description": "Stubs to let Psalm understand Laravel Collections better",
     "keywords": ["php", "code", "inspection", "laravel6", "laravel", "collection", "psalm", "plugin", "psalm-plugin", "static analysis", "static-analysis", "extension"],
     "type": "psalm-plugin",
@@ -22,17 +22,17 @@
     },
     "extra": {
         "psalm" : {
-            "pluginClass": "Fkupper\\Psalm\\LaravelCollection\\Plugin"
+            "pluginClass": "Burceyz\\Psalm\\LaravelCollection\\Plugin"
         }
     },
     "autoload": {
         "psr-4": {
-            "Fkupper\\Psalm\\LaravelCollection\\": "src"
+            "Burceyz\\Psalm\\LaravelCollection\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fkupper\\Psalm\\LaravelCollection\\Tests\\": [
+            "Burceyz\\Psalm\\LaravelCollection\\Tests\\": [
                 "tests/_support",
                 "tests/acceptance"
             ]
